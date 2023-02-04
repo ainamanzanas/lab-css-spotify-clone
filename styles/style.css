@@ -1,8 +1,149 @@
-/*
-Colors:
+body {
+    color: #1A1A1A;
+    font-family: helvetica;
+    font-size: 16px;
+    width: 1024px;
+  }
+  
+  .spotify-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .spotify-navbar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 550px;
+  }
+  
+.spotify-navbar p {
+    margin-left: 20px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+  .spotify-navbar img {
+    width: 130px;
+    height: 40px;
+  }
 
-*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1024px;
+  height: 576x;
+}
+
+.banner-text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 1.4;
+ }
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.shopify-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icons {
+    display: flex;
+    align-items: baseline;  
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+.songs, .music, .devices {
+  width: 80%;
+}
+  
+.songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.songs img {
+    width: 100px;
+    height: 100px;
+}
+
+  
+  .music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .music img {
+    width: 100px;
+    height: 100px;
+}
+  
+  .devices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.devices img {
+    width: 100px;
+    height: 100px;
+}
+
+.icons h3 {
+    color: #00B172;
+}  
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    background-color: #00B172;
+    color: white;
+    margin: 40px 20px 0px;
+    padding: 80px;
+}
+
+.yeezy, .spotify-icon-white, .spotify-app {
+  width: 60%;
+}
+
+.footer h3 {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.green-underline {
+  border-bottom: 2px solid #00B172; 
+}
+
+.yeezy {
+  line-height: 1.5;
+}
+
+.spotify-icon-white img {
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.spotify-app img {
+    width: 250px;
+    height: 500px;
+}
